@@ -1,0 +1,27 @@
+body {
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1::first-letter{
+    line-height: 1.3em;
+    text-decoration: underline;
+    text-transform: lowercase;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.credit{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.intro{
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+    background-color: #eeeeee;
+    color: #666666;
+    text-shadow: 1px 1px 0px #000000
+}
