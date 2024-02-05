@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    background-color: black;
+    min-height: 100px;
+    min-width: 100px;
+    flex-wrap: wrap-reverse;
+    /* flex-wrap: nowrap;
+    flex-wrap: wrap; */
+}
+
+.flexitem {
+    padding: 20px;
+    background-color: aquamarine;
+    height: 100px;
+    width: 300px;
+    text-align: center;
+}
+
+
+.box-1 {
+    background-color: red;
+}
+
+.box-2 {
+    background-color: yellow;
+}
+
+.box-3 {
+    background-color: blue;
+}
+
+.box-4 {
+    background-color: orange;
+}
+
+.box-5 {
+    background-color: brown;
+}
+
+.box-6 {
+    background-color: wheat;
+}

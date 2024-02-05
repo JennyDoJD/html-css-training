@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+         /* ordered the same way as the text direction, along the main axis*/
+    /* flex-direction: row; */
+        /* ordered the opposite way as the text direction, along the main axis */
+    /* flex-direction: row-reverse; */
+        /* ordered the same way as the text direction, along the cross axis. */
+    /* flex-direction: column; */
+        /* ordered the same way as the text direction, along the cross axis. */
+    flex-direction: column-reverse;
+    min-width: 300px;
+    min-height: 100px;
+    padding: 10px;
+    margin: auto;
+    border: 2px solid red;
+}
+
+.flexitem{
+    padding: 20px;
+    background-color: aquamarine;
+    height: 50px;
+    width: 100px;
+    border-radius: 10%;
+}
+
+.box-1{
+    background-color: aqua;
+}
+
+.box-2{
+    background-color: blue;
+}
+
+.box-3{
+    background-color: red;
+}
+
+.box-4{
+    background-color: yellow;
+}

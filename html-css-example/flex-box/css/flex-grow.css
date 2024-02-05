@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    min-width: 300px;
+    min-height: 100px;
+    padding: 20px;
+    margin: auto;
+    background-color: black;
+}
+
+.flexitem{
+    padding: 20px;
+    background-color: aquamarine;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    
+}
+
+.targer{
+    background-color: aquamarine;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+.item-1{
+    background-color: red;
+    flex-grow: 2;
+}
+
+.item-2{
+    background-color: yellow;
+    flex-grow: 3;
+}
