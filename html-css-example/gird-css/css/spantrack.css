@@ -1,0 +1,18 @@
+.span-track {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.span-track--col {
+    grid-column: 1 / span 3;
+}
+
+.span-track--row {
+    grid-row: 2 / span 3;
+}
+
+.product__item {
+    border: 1px solid green;
+    text-align: center;
+}

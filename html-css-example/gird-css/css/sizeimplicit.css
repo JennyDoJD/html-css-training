@@ -1,0 +1,10 @@
+.container {
+    display: grid;
+    /* grid-auto-rows: minmax(1em, 8em); */
+    grid-auto-columns: 500px 1fr;
+}
+
+.product__item {
+    border: 1px solid green;
+    text-align: center;
+}

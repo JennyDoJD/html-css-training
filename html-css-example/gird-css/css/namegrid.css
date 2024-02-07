@@ -1,0 +1,18 @@
+.name-grid {
+    display: grid;
+    grid-template-columns: [main-start aside-start] 100px [aside-end content-start] 355px [content-end main-end];
+    gap: 10px;
+}
+
+.name-grid__sidebar {
+    grid-column: main-start / aside-end;
+}
+
+.name-grid__footer {
+    grid-column: aside-end / main-end
+}
+
+.product__item {
+    border: 1px solid green;
+    text-align: center;
+}

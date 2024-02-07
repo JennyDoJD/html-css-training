@@ -1,0 +1,15 @@
+.negative {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.negative__item {
+    grid-column: 2 / -3;
+    background-color: aqua;
+    /* grid-row: 1 / -4; */
+}
+
+.product__item {
+    border: 1px solid green;
+    text-align: center;
+}
