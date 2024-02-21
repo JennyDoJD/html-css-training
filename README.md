@@ -1,5 +1,3 @@
-# HTML CSS Practice
-
 ## Overview:
 
 - This document provides requirements, technical stack for HTML CSS Practice
