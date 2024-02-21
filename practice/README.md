@@ -52,10 +52,10 @@ cd html-css-training
 git checkout feature/html-css-practice
 ```
 
-- Move to folder `html-css-training`
+- Move to folder `practice`
 
 ```bash
-cd html-css-training
+cd practice
 ```
 
 - Install packages
