@@ -1,7 +1,3 @@
-# HTML CSS Practice
-
-- 2024/02/16
-
 ## Overview:
 
 - This document provides requirements, technical stack for HTML CSS Practice
@@ -35,3 +31,43 @@
   - MS Edge: 44.17763.1.0
   - Chrome: 121.0.6167.185
   - Firefox: 122.0.1
+
+## Getting started:
+
+- Clone the repository
+
+```bash
+git clone https://github.com/JennyDoJD/html-css-training.git
+```
+
+- Move to the cloned repository folder
+
+```bash
+cd html-css-training
+```
+
+- Checkout to branch `html-css-practice`
+
+```bash
+git checkout feature/html-css-practice
+```
+
+- Move to folder `html-css-training`
+
+```bash
+cd html-css-training
+```
+
+- Install packages
+
+```bash
+npm install
+```
+
+- Run the server
+
+```bash
+npm start
+```
+
+- Open your web browser and navigate to [http://localhost:1234](http://localhost:1234)
