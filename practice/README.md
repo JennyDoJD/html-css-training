@@ -71,4 +71,3 @@ npm start
 ```
 
 - Open your web browser and navigate to [http://localhost:1234](http://localhost:1234)
-
