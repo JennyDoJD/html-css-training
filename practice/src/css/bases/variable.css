@@ -1,29 +1,28 @@
 :root {
-    --primary-font: "Poppins";
-    --secondary-font: "Lobster";
+  --primary-font: "Poppins";
+  --secondary-font: "Lobster";
 
-    --fw-bold: 700;
-    --fw-semibold: 600;
-    --fw-medium: 500;
-    --fw-regular: 400;
-    --fw-light: 300;
+  --fw-bold: 700;
+  --fw-semibold: 600;
+  --fw-medium: 500;
+  --fw-regular: 400;
+  --fw-light: 300;
 
-    --primary-text-color: #fff;
-    --secondary-text-color: #00afd5;
-    --tertiary-text-color: #9c9c9c;
-    --fourth-text-color: #000000;
-    --fifth-text-color: #fafafa;
+  --primary-text-color: #fff;
+  --secondary-text-color: #00afd5;
+  --tertiary-text-color: #9c9c9c;
+  --fourth-text-color: #000000;
+  --fifth-text-color: #fafafa;
 
-    --font-size-xxsmall: 12;
-    --font-size-xsmall: 16;
-    --font-size-medium: 18;
-    --font-size-lg: 20;
-    --font-size-xl: 24;
-    --font-size-2xl: 36;
-    --font-size-bg: 52;
+  --font-size-xxsmall: 12;
+  --font-size-xsmall: 16;
+  --font-size-medium: 18;
+  --font-size-lg: 20;
+  --font-size-xl: 24;
+  --font-size-2xl: 36;
+  --font-size-bg: 52;
 
-    --primary-background-color: #fff;
-    --secondary-background-color: #fafafa;
-    --tertiary-background-color: #292c39;
-
+  --primary-background-color: #fff;
+  --secondary-background-color: #fafafa;
+  --tertiary-background-color: #292c39;
 }
