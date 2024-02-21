@@ -1,7 +1,5 @@
 # HTML CSS Practice
 
-- 2024/02/16
-
 ## Overview:
 
 - This document provides requirements, technical stack for HTML CSS Practice
@@ -36,7 +34,7 @@
   - Chrome: 121.0.6167.185
   - Firefox: 122.0.1
 
-## GETTING STARTED
+## Getting started:
 
 - Clone the repository
 
