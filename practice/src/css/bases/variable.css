@@ -14,13 +14,13 @@
   --light-text-color: #fafafa;
   --dark-text-color: #000000;
 
-  --font-size-xxsmall: 12;
-  --font-size-xsmall: 16;
-  --font-size-medium: 18;
-  --font-size-lg: 20;
-  --font-size-xl: 24;
-  --font-size-2xl: 36;
-  --font-size-bg: 52;
+  --font-size-xxsmall: 12px;
+  --font-size-xsmall: 16px;
+  --font-size-medium: 18px;
+  --font-size-lg: 20px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 36px;
+  --font-size-bg: 52px;
 
   --primary-background-color: #fff;
   --secondary-background-color: #fafafa;
