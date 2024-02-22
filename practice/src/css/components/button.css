@@ -1,12 +1,16 @@
-.btn-primary{
-  border: none;
-  border-radius: 12px;
-  text-decoration: none;
-  align-items: center;
-  background: var(--fouth-background-color);
-  color: var(--primary-text-color);
+.btn {
   cursor: pointer;
   font-family: var(--primary-font);
+  align-items: center;
+  text-decoration: none;
+  font-weight: var(--font-weight-medium);
+}
+
+.btn-primary {
+  border: none;
+  border-radius: 12px;
+  background: var(--success-background-color);
+  color: var(--primary-text-color);
   font-size: var(--font-size-medium);
 }
 
@@ -19,11 +23,8 @@
   border-radius: 100px;
   border: 1.5px solid var(--primary-border-color);
   background: var(--primary-background-color);
-  color: var(--tertiary-text-color);
-  cursor: pointer;
-  font-family: var(--primary-font);
-  text-decoration: none;
-  align-items: center;
+  color: var(--success-text-color);
+  font-size: var(--font-size-xxsmall);
 }
 
 
