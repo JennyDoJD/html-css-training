@@ -1,0 +1,122 @@
+.header-section {
+  position: relative;
+  padding: 0 30px;
+  margin-top: 30px;
+}
+
+.header-nav {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-name {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-regular);
+  font-family: var(--secondary-font);
+}
+
+li {
+  list-style: none;
+}
+
+.nav-list {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-item {
+  text-decoration: none;
+  font-family: var(--primary-font);
+  color: var(--tertiary-text-color);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-xsmall);
+  text-align: center;
+
+  &:hover {
+    color: var(--secondary-text-color);
+  }
+}
+
+.header-btn {
+  text-decoration: none;
+  font-family: var(--primary-font);
+  font-size: var(--font-size-xsmall);
+  font-weight: var(--font-weight-medium);
+  color: var(--secondary-text-color);
+}
+
+.toggle-btn {
+  cursor: pointer;
+  display: none;
+}
+
+.header-btn {
+  color: var(--secondary-text-color);
+  border: none;
+  background: rgba(70, 107, 243, 0.1);
+  font-size: var(--font-size-xsmall);
+  height: 48px;
+  width: 143px;
+  border-radius: 12px;
+  padding: 12px 24px;
+
+  &:hover {
+    scale: 1.05;
+  }
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  right: 30px;
+  top: 50px;
+  width: 250px;
+  height: 0;
+  background: rgba(70, 107, 243, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.dropdown-menu.open {
+  height: 200px;
+}
+
+.dropdown-menu li {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Iphone X  */
+@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+  .nav-list, 
+  .header-btn {
+    display: none;
+  }
+  
+  .toggle-btn {
+    display: block;
+  }
+
+  .header-name {
+    font-size: var(--font-size-xsmall);
+  }
+
+  .nav-item {
+    font-size: var(--font-size-xxsmall);
+  }
+
+  .dropdown-menu {
+    display: block;
+  }
+}
+
+
+
