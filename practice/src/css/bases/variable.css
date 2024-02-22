@@ -10,7 +10,7 @@
 
   --primary-text-color: #fff;
   --secondary-text-color: #00afd5;
-  --success-text-color: #9c9c9c;
+  --tertiary-text-color: #9c9c9c;
   --light-text-color: #fafafa;
   --dark-text-color: #000000;
 
@@ -24,7 +24,7 @@
 
   --primary-background-color: #fff;
   --secondary-background-color: #fafafa;
-  --success-background-color: #00afd5;
+  --tertiary-background-color: #00afd5;
   --dark-background-color: #292c39;
   
   --primary-border-color: #7b7b7b;
