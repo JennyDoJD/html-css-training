@@ -9,7 +9,6 @@
 }
 
 .header-name {
-  text-decoration: none;
   font-family: var(--secondary-font);
   font-weight: var(--font-weight-regular);
   line-height: 20px;
@@ -23,11 +22,7 @@
   align-items: center;
   gap: 10px;
 }
-  
-label {
-  cursor: pointer;
-}
-  
+
 #header-dropdown {
   display: none;
 }
@@ -41,7 +36,7 @@ label {
   display: grid;
   gap: 15px;
   text-align: center;
-  background: rgba(70, 107, 243, 0.1);
+  background-color: rgba(70, 107, 243, 0.1);
   border-radius: 12px;
 }
   
@@ -50,10 +45,9 @@ label {
 }
 
 .btn-login {
-  background: rgba(70, 107, 243, 0.1);
+  background-color: rgba(70, 107, 243, 0.1);
   border: none;
-  height: 48px;
-  width: 143px;
+  padding: 12px 24px;
   font-weight: var(--font-weight-medium);
   font-size: var(--font-size-xsmall);
   border-radius: 12px;
@@ -70,7 +64,6 @@ label {
 }
   
 .nav-link {
-  text-decoration: none;
   color: var(--tertiary-text-color);
   font-weight: var(--font-weight-medium);
   font-size: var(--font-size-xxsmall);
@@ -113,22 +106,18 @@ label {
     order: 2;
     gap: 23px;
   }
-
-  .nav-link {
-    font-size: var(--font-size-xxsmall);
-  }
 }
   
-@media (min-width: 1536px) {
+@media (min-width: 1400px) {
   .header-section {
     padding: 30px 100px;
   }
   
   .header-nav {
-  grid-template-columns: 0.5fr 1fr auto;
-  gap: 10px;
-  display: grid;
-  align-items: center;
+    grid-template-columns: 0.5fr 1fr auto;
+    gap: 10px;
+    display: grid;
+    align-items: center;
   }
   
   .nav-mobile {
@@ -147,6 +136,7 @@ label {
   
   .dropdown-content {
     display: none;
+    cursor: pointer;
   }
   
   .header-name {
