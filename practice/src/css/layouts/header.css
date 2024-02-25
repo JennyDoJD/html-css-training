@@ -87,7 +87,6 @@
     grid-template-columns: 1.5fr 2fr auto;
     gap: 10px;
     display: grid;
-    align-items: center;
   }
     
   #header-dropdown:checked + .nav-list {
@@ -117,7 +116,6 @@
     grid-template-columns: 0.5fr 1fr auto;
     gap: 10px;
     display: grid;
-    align-items: center;
   }
   
   .nav-mobile {
