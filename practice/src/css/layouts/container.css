@@ -1,0 +1,18 @@
+.container {
+  margin: 0 auto;
+  max-width: 388px;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .container {
+    max-width: 716px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1240px;
+  }
+}
