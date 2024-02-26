@@ -1,0 +1,22 @@
+.text {
+  font-family: var(--primary-font);
+  font-weight: var(--font-weight-semibold);
+}
+
+.subheading {
+  color: var(--secondary-text-color);
+  font-size: var(--font-size-xsmall);
+}
+
+.title {
+  font-size: var(--font-size-2xl);
+}
+
+.subtitle {
+  font-size: var(--font-size-lg);
+}
+
+.desc {
+  font-weight: var(--font-weight-regular);
+  color: var(--tertiary-text-color);
+}
