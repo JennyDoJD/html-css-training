@@ -210,6 +210,7 @@ template, [hidden] {
   --secondary-background-color: #fafafa;
   --tertiary-background-color: #00afd5;
   --dark-background-color: #292c39;
+  --light-background-color: #466bf31a;
   --primary-border-color: #7b7b7b;
 }
 
@@ -330,7 +331,7 @@ template, [hidden] {
 
 #header-dropdown:checked + .nav-list {
   text-align: center;
-  background-color: #466bf31a;
+  background-color: var(--light-background-color);
   border-radius: 12px;
   grid-column: span 2;
   gap: 15px;
@@ -342,10 +343,10 @@ template, [hidden] {
 }
 
 .btn-login {
+  background-color: var(--light-background-color);
   font-weight: var(--font-weight-medium);
   font-size: var(--font-size-xsmall);
   color: var(--secondary-text-color);
-  background-color: #466bf31a;
   border: none;
   border-radius: 12px;
   padding: 12px 24px;
@@ -376,13 +377,8 @@ template, [hidden] {
     padding: 32px 64px;
   }
 
-  .header-button {
-    display: block;
-  }
-
   .header-nav {
     grid-template-columns: 1.5fr 2fr auto;
-    align-items: center;
     gap: 10px;
     display: grid;
   }
@@ -411,7 +407,6 @@ template, [hidden] {
 
   .header-nav {
     grid-template-columns: .5fr 1fr auto;
-    align-items: center;
     gap: 10px;
     display: grid;
   }
