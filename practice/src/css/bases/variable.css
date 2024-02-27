@@ -10,9 +10,9 @@
 
   --primary-text-color: #fff;
   --secondary-text-color: #00afd5;
-  --tertiary-text-color: #9c9c9c;
+  --tertiary-text-color: #7b7b7b;
   --light-text-color: #fafafa;
-  --dark-text-color: #000000;
+  --dark-text-color: #232631;
 
   --font-size-xxsmall: 12px;
   --font-size-xsmall: 16px;
@@ -29,4 +29,6 @@
   --light-background-color: rgba(70, 107, 243, 0.1);
   
   --primary-border-color: #7b7b7b;
+
+  --primary-line-height: 30px;
 }

@@ -1,0 +1,34 @@
+.text {
+  color: var(--dark-text-color);
+  font-weight: var(--font-weight-semibold);
+  font-family: var(--primary-font); 
+}
+
+.main-heading {
+  color: var(--secondary-text-color);
+  font-size: var(--font-size-xsmall);
+  line-height: 22.4px;
+}
+
+.secondary-heading {
+  font-size: var(--font-size-2xl);
+  line-height: 50.4px;
+}
+
+.main-title {
+  font-size: var(--font-size-lg);
+  line-height: var(--primary-line-height);
+}
+
+.secondary-title {
+  font-size: var(--font-size-xxsmall);
+  font-weight: var(--font-weight-light);
+  font-style: italic;
+}
+
+.description {
+  color: var(--tertiary-text-color);
+  font-size: var(--font-size-xsmall);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--primary-line-height);
+}

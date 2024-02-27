@@ -1,6 +1,6 @@
 ## Overview:
 
-- This document provides requirements, technical stack for HTML CSS Practice
+- This document provides requirements, technical stack for HTML CSS Practice.
 - Refer to the details design here: [Figma](<https://www.figma.com/file/36kEHivroepFyDPDFsNwjd/Damiun-Trip's-(Community)?type=design&node-id=0-1&mode=design&t=yE5y31zDjW8FPgeH-0&fbclid=IwAR21Xc-sYMmXajBrOQ2kTU9ncuOT_bRRyqkq2yk0K4HZMwne9LiVWwAFw-s>)
 
 ## Timeline:
