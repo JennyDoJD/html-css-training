@@ -54,7 +54,7 @@
 }
 
 @font-face {
-  font-family: var(--secondary-font);
+  font-family: 'Lobster';
   src: url('../../assets/fonts/Lobster-Regular.ttf') format('truetype'),
     url('../../assets/fonts/Lobster-Regular.woff') format('woff'),
     url('../../assets/fonts/Lobster-Regular.woff2') format('woff2');
