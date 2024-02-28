@@ -2,7 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 48px 22px 22px 39px;
+  padding-top: 48px;
+  padding-bottom: 22px;
 }
 
 .dropdown-content {
@@ -36,8 +37,6 @@
 @media (min-width: 768px) {
   .header-section {
     padding-top: 30px;
-    padding-left: 26px;
-    padding-right: 26px;
   }
 
   .nav-link {
@@ -84,8 +83,6 @@
 @media (min-width: 1440px) {
   .header-section {
     padding-top: 30px;
-    padding-left: 100px;
-    padding-right: 100px;
   }
 
   .nav-link {
