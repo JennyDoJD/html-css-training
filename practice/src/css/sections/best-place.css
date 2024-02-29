@@ -1,10 +1,9 @@
-.place-section {
-  background-image: url(https://s3-alpha-sig.figma.com/img/6a46/9b14/71c2ad353c582a71eba56ed3e06dae89?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=f1e04y7hunRZwMK3kfR6sbxf9I5gFjfbaaFA4A1ivKZoaHUUqdroajaBOdrVJz0Hk9J77gTwKBaz~NjoW4nAUg7e0QfE6cWD-wHnoxx9gA8qS4fiiZK3Jnxl2YHiXqGkyI2mWF4ob0IXKO0WCGbe435gNKWJrLgq0Ehc8daojGHU5vnUFn3mRiI-qnEvh3rIuR3aBcqDKXHi7SOI7LPkaC79tz7oRpBZ-kx5KhSipWT2fTuglaheljGHaatDelrIUwgwFhktHi0NiZSFSd0Vx94bQ1ScS-CRYVCK1pfwRBxQ1kNANwmVOEvIHCP8oVy26FQg8Tf~b0Q8i9hBB-LdTA__);
-  background-color: var(--secondary-background-color);
-  background-repeat: no-repeat;
+.wrapper-place {
+  background: url(../../assets/images/banner.webp) no-repeat center;
   background-size: cover;
-  height: 350px;
   border-radius: 24px;
+  height: 380px;
+  display: flex;
 }
 
 .place-introduction {
@@ -12,8 +11,9 @@
 }
 
 .tab-nav {
-  position: absolute;
-  top: 400px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
 }
 
 .tab-list {
@@ -29,7 +29,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   padding: 15px 10px 10px 10px;
 }
 
@@ -48,18 +48,18 @@
   font-weight: var(--font-weight-medium);
   font-size: var(--font-size-xxsmall);
   line-height: 18px;
-  font-family: 'Poppins';
+  font-family: var(--primary-font);
   color: var(--secondary-text-color);
 }
 
 .active {
-  color: white;
+  color: var(--primary-text-color);
 }
 
-.pane-1 {
+.pane-first {
   display: flex;
-  gap: 5px;
   align-items: center;
+  border-right: 1px solid #eeeeee;
 }
 
 .pane-content {
@@ -71,7 +71,7 @@
   display: flex;
   flex-direction: column;
 }
-/*  */
+
 .tab-title {
   font-size: var(--font-size-xsmall);
   font-weight: var(--font-weight-medium);
@@ -85,7 +85,7 @@
   line-height: 18px;
 }
 
-.pane-2, .pane-3 {
+.pane-second, .pane-third {
   display: none;
 }
 
@@ -97,59 +97,52 @@
   font-size: var(--font-size-xxsmall);
   padding: 6px 8px;
   color: var(--primary-text-color);
+  border: none;
 }
 
 .icon-search {
-  width: 16.5px;
+  width: 16px;
 }
 
 .icon-union, .icon-address {
   width: 24px;
 }
 
-.image-banner {
-  display: none;
-}
-
 /* Tablet */
 @media (min-width: 768px) {
-  .place-section {
-    background-image: none;
-    position: relative;
-  }
-
-  .image-banner {
-    display: block;
-    width: 280px;
-    position: absolute;
-    right: 0px;
-    border-radius: 24px;
+  .wrapper-place {
+    background: var(--secondary-background-color) url(../../assets/images/banner-desktop.webp) no-repeat top right;
+    background-size: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
   }
 
   .place-introduction {
     display: block;
-    position: absolute;
-    top: 15px;
-    left: 40px;
+    width: fit-content;
+    padding: 25px;
   }
 
   .place-title {
-    font-size: var(--font-size-2xl);
+    display: block;
+    font-size: 32px;
     font-weight: var(--font-weight-bold);
     line-height: 45px;
-    
+    width: 351px;
   }
 
   .place-description {
-    font-size: var(--font-size-small);
-    line-height: 28px;
+    font-size: var(--font-size-xxsmall);
     font-weight: var(--font-weight-light);
     color: var(--tertiary-text-color);
+    line-height: 20px;
+    width: 328px;
   }
 
-  .tab-nav {
-    position: relative;
-    top: 300px;
+  .tab-pane {
+    padding: 20px 20px 10px 20px;
+    justify-content: space-around;
   }
 
   .tab-item {
@@ -168,10 +161,14 @@
     color: var(--primary-text-color);
   }
 
-  .pane-2, .pane-3 {
+  .pane-second, .pane-third {
     display: flex;
     gap: 7px;
     align-items: center;
+  }
+
+  .pane-second {
+    border-right: 1px solid #eeeeee;
   }
 
   .tab-title {
@@ -199,38 +196,32 @@
 }
 
 @media (min-width: 1440px) {
-  .place-section {
-    height: 580px;
-  }
-
   .wrapper-place {
-    height: 580px;
-  }
-
-  .image-banner {
-    width: 600px;
-    height: 580px;
-  }
-
-  .place-introduction {
-    top: 50px;
-    left: 60px;
+    height: 600px;
+    justify-content: center;
   }
 
   .place-title {
     font-size: var(--font-size-bg);
     line-height: 78px;
+    width: 550px;
   }
 
   .place-description {
     font-size: var(--font-size-xsmall);
     line-height: 30px;
     font-weight: var(--font-weight-regular);
+    width: 445px;
+  }
+
+  .place-introduction {
+    padding-left: 60px;
   }
 
   .tab-nav {
-    top: 382px;
-    left: 42px;
+    width: fit-content;
+    padding-left: 35px;
+    padding-top: 20px;
   }
 
   .tab-item {
@@ -243,17 +234,18 @@
   }
 
   .tab-pane {
-    padding: 30px 20px 30px 30px;
-    width: 1100px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 1130px;
     gap: 20px;
-    box-shadow: 50px 60px 100px rgba(250, 250, 250, 1), 0px 0px 0px rgba(255, 255, 255, 0)  
+    box-shadow: 0px 60px 100px rgba(250, 250, 250, 1), 0px 0px 0px rgba(255, 255, 255, 0)  
   }
 
   .active {
     color: var(--primary-text-color);
   }
 
-  .pane-1, .pane-2, .pane-3 {
+  .pane-first, .pane-second, .pane-third {
     gap: 20px;
   }
 
@@ -268,7 +260,6 @@
 
   .tab-description {
     font-size: var(--font-size-xsmall);
-    line-height: 24px;
   }
 
   .btn-search {
