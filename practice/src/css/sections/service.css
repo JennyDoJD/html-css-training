@@ -1,0 +1,121 @@
+.wrapper-service {
+  background-color: var(--secondary-background-color);
+  border-radius: 24px;
+}
+
+.service-main {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 285px);
+  gap: 30px;
+}
+
+.service-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 24px;
+}
+
+.service-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 285px);
+  gap: 20px 0;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .wrapper-service {
+    background-color: var(--primary-background-color);
+    border-radius: 0;
+  }
+
+  .service-heading {
+    padding-left: 30px;
+    width: 200px;
+  }
+
+  .service-main {
+    background-color: var(--secondary-background-color);
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 5px;
+    padding-top: 30px;
+    border-radius: 24px;
+  }
+
+  .main-heading {
+    font-size: var(--font-size-xxsmall);
+  }
+
+  .secondary-heading {
+    font-size: var(--font-size-xl);
+    line-height: var(--primary-line-height);
+  }
+
+  .service-content {
+    grid-template-columns: auto 1fr;
+    gap: 30px 50px;
+  }
+
+  .service-topic {
+    width: 200px;
+  }
+
+  .main-title {
+    font-size: var(--font-size-small);
+  }
+
+  .description {
+    font-size: var(--font-size-xxsmall);
+    line-height: 25px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+  .service-section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .service-heading {
+    padding-left: 100px;
+    width: 244px;
+  }
+
+  .service-main {
+    gap: 80px;
+    padding-top: 30px;
+    border-radius: 24px;
+  }
+
+  .main-heading {
+    font-size: var(--font-size-small);
+    line-height: 22px;
+  }
+
+  .secondary-heading {
+    font-size: var(--font-size-2xl);
+    line-height: 50px;
+  }
+
+  .main-title {
+    font-size: var(--font-size-lg);
+    line-height: var(--primary-line-height);
+  }
+
+  .description {
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--primary-line-height);
+  }
+
+  .service-content {
+    gap: 45px 116px;
+  }
+
+  .service-topic {
+    width: 270px;
+  }
+}
