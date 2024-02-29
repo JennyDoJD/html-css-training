@@ -6,13 +6,13 @@
 
 .main-heading {
   color: var(--secondary-text-color);
-  font-size: var(--font-size-xsmall);
-  line-height: 22.4px;
+  font-size: var(--font-size-small);
+  line-height: 22px;
 }
 
 .secondary-heading {
   font-size: var(--font-size-2xl);
-  line-height: 50.4px;
+  line-height: 50px;
 }
 
 .main-title {
@@ -28,7 +28,7 @@
 
 .description {
   color: var(--tertiary-text-color);
-  font-size: var(--font-size-xsmall);
+  font-size: var(--font-size-small);
   font-weight: var(--font-weight-regular);
   line-height: var(--primary-line-height);
 }
