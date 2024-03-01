@@ -152,18 +152,6 @@
     padding: 10px 20px;
   }
 
-  .tab-link {
-    font-weight: var(--font-weight-medium);
-    font-size: var(--font-size-xxsmall);
-    line-height: 18px;
-    font-family: var(--primary-font);
-    color: var(--secondary-text-color);
-  }
-
-  .active {
-    color: var(--primary-text-color);
-  }
-
   .pane-date, .pane-type {
     display: flex;
     gap: 7px;
