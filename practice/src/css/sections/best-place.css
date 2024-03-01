@@ -18,9 +18,9 @@
 
 .tab-list {
   display: flex;
-  margin: 0;
+  /* margin: 0;
   padding-left: 0px;
-  width: fit-content;
+  width: fit-content; */
 }
 
 .tab-pane {
@@ -35,13 +35,18 @@
 
 .tab-item {
   padding: 8px 20px;
-  border-radius: 0px 12px 0px 0px;
-  background-color: var(--primary-background-color);
-}
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
 
-.native {
-  border-radius: 12px 0px 0px 0px;
-  background-color: var(--tertiary-background-color);
+  &:first-child {
+    border-top-left-radius: 12px;
+    background-color: var(--tertiary-background-color);
+  }
+
+  &:last-child {
+    border-top-right-radius: 12px;
+    background-color: var(--primary-background-color);
+  }
 }
 
 .tab-link {
@@ -49,11 +54,11 @@
   font-size: var(--font-size-xxsmall);
   line-height: 18px;
   font-family: var(--primary-font);
-  color: var(--secondary-text-color);
+  color: blue;
 }
 
 .active {
-  color: var(--primary-text-color);
+  color: white;
 }
 
 .pane-first {
@@ -70,7 +75,7 @@
 .tab-introduction {
   display: flex;
   flex-direction: column;
-}
+} 
 
 .tab-title {
   font-size: var(--font-size-xsmall);
@@ -120,16 +125,16 @@
 
   .place-introduction {
     display: block;
-    width: fit-content;
+    width: 323px;
     padding: 25px;
   }
 
   .place-title {
-    display: block;
+    /* display: block; */
     font-size: 32px;
     font-weight: var(--font-weight-bold);
     line-height: 45px;
-    width: 351px;
+    /* width: 351px; */
   }
 
   .place-description {
