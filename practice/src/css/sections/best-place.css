@@ -1,6 +1,6 @@
 .wrapper-place {
   background: url(../../assets/images/banner.webp) no-repeat center;
-  background-size: cover;
+  background-size: contain;
   border-radius: 24px;
   height: 380px;
   display: flex;
@@ -8,12 +8,6 @@
 
 .place-introduction {
   display: none;
-}
-
-.tab-nav {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
 }
 
 .tab-list {
@@ -26,8 +20,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 19px 7px 10px 7px;
-  gap: 6px;
+  padding: 20px 20px 10px 20px;
+  gap: 10px;
+  width: max-content;
 }
 
 .tab-item {
@@ -46,16 +41,10 @@
   }
 }
 
-.tab-link {
-  font-weight: var(--font-weight-medium);
-  font-size: var(--font-size-xxsmall);
-  line-height: 18px;
-  font-family: var(--primary-font);
-  color: var(--secondary-text-color);
-}
-
-.active {
-  color: var(--primary-text-color);
+.tab-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .pane-mountain {
@@ -67,6 +56,7 @@
 .pane-content {
   display: flex;
   gap: 4px;
+  align-items: center;
 }
 
 .tab-introduction {
@@ -74,41 +64,18 @@
   flex-direction: column;
 } 
 
-.tab-title {
-  font-size: var(--font-size-xsmall);
-  font-weight: var(--font-weight-medium);
-  line-height: 21px;
-}
-
-.tab-description {
-  font-size: var(--font-size-xxsmall);
-  font-weight: var(--font-weight-regular);
-  color: var(--brown-text-color);
-  line-height: 18px;
-  border: none;
-}
-
 .pane-date, 
 .pane-type {
   display: none;
 }
 
-.btn-search {
-  background-color: var(--tertiary-background-color);
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  font-size: var(--font-size-xxsmall);
-  padding: 4px 8px;
-  color: var(--primary-text-color);
-  border: none;
-}
-
 .icon-search {
-  width: 16px;
+  width: 17px;
+  height: 17px;
 }
 
-.icon-union, .icon-address {
+.icon-union, 
+.icon-address {
   width: 24px;
 }
 
@@ -128,31 +95,16 @@
     padding: 25px;
   }
 
-  .place-title {
-    font-size: var(--font-size-2xl);
-    font-weight: var(--font-weight-bold);
-    line-height: 45px;
-  }
-
-  .place-description {
-    font-size: var(--font-size-xxsmall);
-    font-weight: var(--font-weight-light);
-    color: var(--tertiary-text-color);
-    line-height: var(--tertiary-line-height);
-    width: 328px;
-  }
-
   .tab-pane {
-    padding: 18px 5px 13px 0px;
-    justify-content: space-around;
-    gap: 4px;
+    padding: 20px 5px 10px 5px;
   }
 
   .tab-item {
     padding: 10px 20px;
   }
 
-  .pane-date, .pane-type {
+  .pane-date, 
+  .pane-type {
     display: flex;
     gap: 7px;
     align-items: center;
@@ -162,17 +114,8 @@
     border-right: 1px solid #eeeeee;
   }
 
-  .tab-title {
-    font-size: var(--font-size-small);
-  }
-
   .btn-search {
-    background-color: var(--tertiary-background-color);
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
     font-size: var(--font-size-xxsmall);
-    padding: 10px 22px;
     gap: 4px;
   }
 
@@ -181,52 +124,31 @@
   }
 }
 
+/* Desktop */
 @media (min-width: 1440px) {
   .wrapper-place {
     height: 600px;
     justify-content: center;
   }
 
-  .place-title {
-    font-size: var(--font-size-bg);
-    line-height: 78px;
-    width: 550px;
-  }
-
-  .place-description {
-    font-size: var(--font-size-small);
-    line-height: var(--primary-line-height);
-    font-weight: var(--font-weight-regular);
-    width: 445px;
-  }
-
   .place-introduction {
-    padding-left: 60px;
+    margin-left: 60px;
   }
 
   .tab-nav {
-    padding-left: 35px;
-    padding-top: 20px;
+    margin-left: 35px;
+    margin-top: 100px;
   }
 
   .tab-item {
     padding: 12px 24px;
   }
 
-  .tab-link {
-    font-size: var(--font-size-medium);
-    line-height: var(--secondary-line-height);
-  }
-
   .tab-pane {
-    padding: 30px 0px 20px 32px;
+    padding: 30px 20px 25px 30px;
     width: 1130px;
     gap: 20px;
     box-shadow: 0px 60px 100px rgba(250, 250, 250, 1), 0px 0px 0px rgba(255, 255, 255, 0)  
-  }
-
-  .active {
-    color: var(--primary-text-color);
   }
 
   .pane-mountain, 
@@ -237,21 +159,5 @@
 
   .pane-content {
     gap: 16px;
-  }
-
-  .tab-title {
-    font-size: var(--font-size-medium);
-    line-height: var(--secondary-line-height);
-  }
-
-  .tab-description {
-    font-size: var(--font-size-small);
-  }
-
-  .btn-search {
-    font-size: var(--font-size-medium);
-    padding: 14px 24px;
-    gap: 10px;
-    line-height: var(--secondary-line-height);
   }
 }
