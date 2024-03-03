@@ -74,11 +74,6 @@
   height: 17px;
 }
 
-.icon-union, 
-.icon-address {
-  width: 24px;
-}
-
 /* Tablet */
 @media (min-width: 768px) {
   .wrapper-place {
