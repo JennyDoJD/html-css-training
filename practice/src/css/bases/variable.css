@@ -13,13 +13,16 @@
   --tertiary-text-color: #7b7b7b;
   --light-text-color: #fafafa;
   --dark-text-color: #232631;
+  --brown-text-color: #848484;
 
   --font-size-xxsmall: 12px;
-  --font-size-xsmall: 16px;
+  --font-size-xsmall: 14px;
+  --font-size-small: 16px;
   --font-size-medium: 18px;
   --font-size-lg: 20px;
   --font-size-xl: 24px;
-  --font-size-2xl: 36px;
+  --font-size-2xl: 32px;
+  --font-size-3xl: 36px;
   --font-size-bg: 52px;
 
   --primary-background-color: #fff;
@@ -31,4 +34,7 @@
   --primary-border-color: #7b7b7b;
 
   --primary-line-height: 30px;
+  --secondary-line-height: 27px;
+  --tertiary-line-height: 24px;
+  --small-line-height: 20px;
 }
