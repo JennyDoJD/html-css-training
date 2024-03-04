@@ -1,12 +1,14 @@
 .container {
   margin: 0 auto;
-  max-width: 360px;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 /* Tablet */
 @media (min-width: 768px) {
   .container {
-    max-width: 716px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
