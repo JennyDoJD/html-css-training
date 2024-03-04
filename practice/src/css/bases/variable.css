@@ -13,6 +13,7 @@
   --tertiary-text-color: #7b7b7b;
   --light-text-color: #fafafa;
   --dark-text-color: #232631;
+  --brown-text-color: #848484;
 
   --font-size-xxsmall: 12px;
   --font-size-xsmall: 14px;
@@ -33,7 +34,7 @@
   --primary-border-color: #7b7b7b;
 
   --primary-line-height: 30px;
-  --secondary-line-height: 20px;
-
-  --primary-border-radius: 24px;
+  --secondary-line-height: 27px;
+  --tertiary-line-height: 24px;
+  --small-line-height: 20px;
 }
