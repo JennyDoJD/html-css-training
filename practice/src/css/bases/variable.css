@@ -21,7 +21,11 @@
   --font-size-medium: 18px;
   --font-size-lg: 20px;
   --font-size-xl: 24px;
+<<<<<<< HEAD
   --font-size-2xl: 32px;
+=======
+  --font-size-2xl: 30px;
+>>>>>>> 52960ad5473063e5d12dd8d1464d301c616cf4de
   --font-size-3xl: 36px;
   --font-size-bg: 52px;
 
@@ -34,7 +38,13 @@
   --primary-border-color: #7b7b7b;
 
   --primary-line-height: 30px;
+<<<<<<< HEAD
   --secondary-line-height: 27px;
   --tertiary-line-height: 24px;
   --small-line-height: 20px;
+=======
+  --secondary-line-height: 20px;
+
+  --primary-border-radius: 24px;
+>>>>>>> 52960ad5473063e5d12dd8d1464d301c616cf4de
 }
