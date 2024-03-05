@@ -2,6 +2,7 @@
   padding-bottom: 50px;
   border-radius: 70px 20px 20px 20px;
   background: var(--dark-blue-background-color) url(../../assets/images/discount/map-mobile.png) no-repeat center / contain;
+  position: relative;
 }
 
 .discount-section {
@@ -34,10 +35,6 @@
 
 .discount-comment {
   display: none;
-}
-
-.wrapper-discount {
-  position: relative;
 }
 
 /* Tablet */
