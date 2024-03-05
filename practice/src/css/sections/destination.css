@@ -74,10 +74,6 @@
   padding-bottom: 50px;
 }
 
-.destination-button {
-  padding-top: 50px;
-}
-
 .destination-card {
   display: grid;
   gap: 45px;
@@ -111,6 +107,7 @@
 .destination-button {
   display: grid;
   place-items: center;
+  padding-top: 50px;
 }
 
 /* Tablet */
