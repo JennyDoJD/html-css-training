@@ -14,6 +14,8 @@
   --light-text-color: #fafafa;
   --dark-text-color: #232631;
   --brown-text-color: #848484;
+  --pale-gray-text-color: #e0e7fa;
+  --light-gray-text-color: #a1a1a3;
 
   --font-size-xxsmall: 12px;
   --font-size-xsmall: 14px;
@@ -30,6 +32,7 @@
   --tertiary-background-color: #00afd5;
   --dark-background-color: #292c39;
   --light-background-color: rgba(70, 107, 243, 0.1);
+  --dark-gray-background-color: #232631;
   
   --primary-border-color: #7b7b7b;
 
