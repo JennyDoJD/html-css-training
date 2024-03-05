@@ -10,6 +10,7 @@
   font-size: var(--font-size-medium);
   font-weight: var(--font-weight-medium);
   line-height: var(--secondary-line-height);
+  background-color: var(--tertiary-background-color);
   padding: 14px 24px;
 }
 
