@@ -1,7 +1,11 @@
 .wrapper-discount {
-  background: var(--dark-blue-background-color);
   padding-bottom: 50px;
   border-radius: 70px 20px 20px 20px;
+  background: var(--dark-blue-background-color) url(../../assets/images/discount/map-mobile.png) no-repeat center / contain;
+}
+
+.discount-section {
+  padding-top: 40px;
 }
 
 .discount-heading {
@@ -32,10 +36,6 @@
   display: none;
 }
 
-.rojali-info {
-  line-height: 24px;
-}
-
 .wrapper-discount {
   position: relative;
 }
@@ -43,13 +43,21 @@
 /* Tablet */
 @media (min-width: 768px) {
   .rojali-info {
+    font-size: var(--font-size-xsmall);
+    line-height: 21px;
+    font-weight: var(--font-weight-regular);
+    color: var(--dark-text-color);
+  }
+
+  .comment-customer {
     font-size: var(--font-size-small);
-    line-height: var(--tertiary-line-height);
     font-weight: var(--font-weight-medium);
+    line-height: 23px;
     color: var(--dark-text-color);
   }
 
   .wrapper-discount {
+    background-image: none;
     background-color: var(--primary-background-color);
   }
 
@@ -95,10 +103,6 @@
     border-radius: 50%;
     width: 54px;
     height: 54px;
-  }
-
-  .comment-customer {
-    width: 190px;
   }
 
   .information-customer {
