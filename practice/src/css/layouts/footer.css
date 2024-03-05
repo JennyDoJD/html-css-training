@@ -1,15 +1,14 @@
-npm.footer-section {
+.footer-section {
   padding-top: 70px;
 }
 
 .footer-wrapper {
-  background-color: #232631;
-  position: relative;
+  background: #232631 url(../../assets/images/footer/logo-mobile.svg) no-repeat right bottom 45px;
 }
 
 .footer-main {
   padding-top: 50px;
-  padding-bottom: 30p;
+  padding-bottom: 50px;
 }
 
 .footer-logo-name {
@@ -82,6 +81,7 @@ npm.footer-section {
     gap: 50px;
     align-items: normal;
   }
+
 }
 
 @media (min-width: 1440px) {
