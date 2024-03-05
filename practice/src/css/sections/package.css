@@ -61,8 +61,6 @@
   font-size: var(--font-size-medium);
   line-height: var(--secondary-line-height);
   color: var(--primary-text-color);
-  display: flex;
-  gap: 10px;
 }
 
 .package-card-desc {
