@@ -7,6 +7,7 @@
 
 .discount-section {
   padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 .discount-heading {
@@ -15,7 +16,7 @@
 }
 
 .btn-claim {
-  font-size: 14px;
+  font-size: var(--font-size-xsmall);
   background-color: var(--tertiary-background-color);
 }
 
@@ -39,14 +40,14 @@
 
 /* Tablet */
 @media (min-width: 768px) {
-  .rojali-info {
+  .introduction-customer {
     font-size: var(--font-size-xsmall);
     line-height: 21px;
     font-weight: var(--font-weight-regular);
     color: var(--dark-text-color);
   }
 
-  .comment-customer {
+  .discount-comment-text {
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-medium);
     line-height: 23px;
@@ -96,7 +97,7 @@
     bottom: 2px;
   }
 
-  .avatar-rojali {
+  .avatar-customer {
     border-radius: 50%;
     width: 54px;
     height: 54px;
