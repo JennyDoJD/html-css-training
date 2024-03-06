@@ -24,33 +24,3 @@
     background-color: var(--tertiary-background-color);
   }
 }
-
-.btn-search-banner {
-  background-color: var(--tertiary-background-color);
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  font-size: var(--font-size-xsmall);
-  padding: 12px 24px;
-  color: var(--primary-text-color);
-  border: none;
-}
-
-/* Tablet */
-@media (min-width: 768px) {
-  .btn-search-banner {
-    font-size: var(--font-size-xxsmall);
-    gap: 4px;
-  }
-}
-
-/* Desktop */
-@media (min-width: 1440px) {
-  .btn-search-banner {
-    font-size: var(--font-size-medium);
-    padding-top: 14px;
-    padding-bottom: 14px;
-    gap: 10px;
-    line-height: var(--secondary-line-height);
-  }
-}
