@@ -67,6 +67,7 @@
 
   .discount-title {
     width: 500px;
+    padding: 0;
   }
 
   .discount-description {
@@ -81,10 +82,6 @@
     flex-direction: column;
     gap: 12px;
     align-items: center;
-  }
-
-  .icon-heart {
-    transform: translate(-10%, -50%);
   }
 
   .discount-comment {
@@ -108,5 +105,12 @@
     gap: 5px;
     align-items: center;
     padding-top: 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .discount-main {
+    padding-top: 25px;
+    padding-bottom: 75px;
   }
 }
