@@ -62,12 +62,17 @@
   }
 
   .service-topic-desc {
-    width: 212px;
+    width: 259px;
   }
 }
 
 /* Desktop */
 @media (min-width: 1440px) {
+  .wrapper-service {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
   .service-section {
     padding-top: 70px;
     padding-bottom: 70px;
