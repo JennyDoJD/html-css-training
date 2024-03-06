@@ -1,0 +1,116 @@
+.wrapper-discount {
+  padding-bottom: 50px;
+  border-radius: 70px 20px 20px 20px;
+  background: var(--dark-blue-background-color) url(../../assets/images/discount/map-mobile.png) no-repeat center / contain;
+  position: relative;
+}
+
+.discount-section {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.discount-heading {
+  text-align: center;
+  padding-bottom: 99px;
+}
+
+.btn-claim {
+  font-size: var(--font-size-xsmall);
+  background-color: var(--tertiary-background-color);
+}
+
+.discount-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.icon-heart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.discount-comment {
+  display: none;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .introduction-customer {
+    font-size: var(--font-size-xsmall);
+    line-height: 21px;
+    font-weight: var(--font-weight-regular);
+    color: var(--dark-text-color);
+  }
+
+  .discount-comment-text {
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-medium);
+    line-height: 23px;
+    color: var(--dark-text-color);
+  }
+
+  .wrapper-discount {
+    background-image: none;
+    background-color: var(--primary-background-color);
+  }
+
+  .discount-main {
+    background: var(--dark-blue-background-color) url(../../assets/images/discount/map-desktop.png) no-repeat;
+    border-radius: 70px 20px 20px 20px;
+    padding-bottom: 50px;
+  }
+
+  .discount-title {
+    width: 500px;
+    padding: 0;
+  }
+
+  .discount-description {
+    width: 341px;
+    color: var(--dark-text-color);
+  }
+
+  .discount-heading {
+    padding-bottom: 30px;
+    width: 461px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .discount-comment {
+    display: block;
+    position: absolute;
+    padding: 20px;
+    background-color: var(--primary-background-color);
+    border-radius: 24px;
+    width: 194px;
+    bottom: 2px;
+  }
+
+  .avatar-customer {
+    border-radius: 50%;
+    width: 54px;
+    height: 54px;
+  }
+
+  .information-customer {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .discount-main {
+    padding-top: 25px;
+    padding-bottom: 75px;
+  }
+}

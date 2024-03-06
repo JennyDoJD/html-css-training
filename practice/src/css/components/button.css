@@ -10,17 +10,21 @@
   font-size: var(--font-size-medium);
   font-weight: var(--font-weight-medium);
   line-height: var(--secondary-line-height);
+  background-color: var(--tertiary-background-color);
   padding: 14px 24px;
 }
 
 .btn-secondary {
   border: 1.5px solid var(--primary-border-color);
   background: var(--primary-background-color);
-  color: var(--success-text-color);
+  color: var(--tertiary-text-color);
   font-size: var(--font-size-xxsmall);
+  padding: 14px 24px;
+  border-radius: 100px;
 
   &:hover {
     color: var(--primary-text-color);
     background-color: var(--tertiary-background-color);
+    border: none;
   }
 }

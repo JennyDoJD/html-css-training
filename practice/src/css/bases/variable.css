@@ -14,6 +14,9 @@
   --light-text-color: #fafafa;
   --dark-text-color: #232631;
   --brown-text-color: #848484;
+  --pale-gray-text-color: #e0e7fa;
+  --light-gray-text-color: #a1a1a3;
+  --dark-grey-text-color: #ededed;
 
   --font-size-xxsmall: 12px;
   --font-size-xsmall: 14px;
@@ -21,7 +24,7 @@
   --font-size-medium: 18px;
   --font-size-lg: 20px;
   --font-size-xl: 24px;
-  --font-size-2xl: 32px;
+  --font-size-2xl: 30px;
   --font-size-3xl: 36px;
   --font-size-bg: 52px;
 
@@ -30,11 +33,18 @@
   --tertiary-background-color: #00afd5;
   --dark-background-color: #292c39;
   --light-background-color: rgba(70, 107, 243, 0.1);
+  --dark-gray-background-color: #232631;
+  --dark-blue-background-color: rgba(50, 88, 232, 0.1);
   
   --primary-border-color: #7b7b7b;
   --secondary-border-color: #000000;
 
   --primary-line-height: 30px;
   --secondary-line-height: 27px;
-  --tertiary-line-height: 20px;
+  --tertiary-line-height: 24px;
+  --small-line-height: 20px;
+
+  --primary-border-radius: 24px;
+
+  --primary-border-radius-color: #00afd5;
 }

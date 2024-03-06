@@ -1,5 +1,6 @@
 .wrapper-service {
   background-color: var(--secondary-background-color);
+<<<<<<< HEAD
   border-radius: 24px;
 }
 
@@ -8,26 +9,57 @@
   padding-bottom: 30px;
   display: grid;
   grid-template-columns: repeat(auto-fill, 285px);
+=======
+  border-radius: var(--primary-border-radius);
+}
+
+.service-main {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: grid;
+>>>>>>> feature/html-css-practice
   gap: 30px;
 }
 
 .service-section {
   padding-top: 40px;
   padding-bottom: 40px;
+<<<<<<< HEAD
   border-radius: 24px;
+=======
+  border-radius: var(--primary-border-radius);
+>>>>>>> feature/html-css-practice
 }
 
 .service-content {
   display: grid;
+<<<<<<< HEAD
   grid-template-columns: repeat(auto-fill, 285px);
   gap: 20px 0;
 }
 
+=======
+  gap: 20px 0;
+}
+
+.service-topic-title {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--primary-line-height);
+  color: var(--dark-text-color);
+}
+
+.service-heading {
+  width: 256px;
+}
+
+>>>>>>> feature/html-css-practice
 /* Tablet */
 @media (min-width: 768px) {
   .wrapper-service {
     background-color: var(--primary-background-color);
     border-radius: 0;
+<<<<<<< HEAD
   }
 
   .service-heading {
@@ -51,10 +83,30 @@
   .secondary-heading {
     font-size: var(--font-size-xl);
     line-height: var(--primary-line-height);
+=======
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+  .service-heading {
+    width: 400px;
+    text-align: center;
+  }
+
+  .service-main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-background-color);
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+>>>>>>> feature/html-css-practice
   }
 
   .service-content {
     grid-template-columns: auto 1fr;
+<<<<<<< HEAD
     gap: 30px 50px;
   }
 
@@ -69,6 +121,13 @@
   .description {
     font-size: var(--font-size-xxsmall);
     line-height: 25px;
+=======
+    gap: 30px 130px;
+  }
+
+  .service-topic-desc {
+    width: 212px;
+>>>>>>> feature/html-css-practice
   }
 }
 
@@ -80,11 +139,17 @@
   }
 
   .service-heading {
+<<<<<<< HEAD
     padding-left: 100px;
+=======
+    text-align: left;
+    padding-left: 30px;
+>>>>>>> feature/html-css-practice
     width: 244px;
   }
 
   .service-main {
+<<<<<<< HEAD
     gap: 80px;
     padding-top: 30px;
     border-radius: 24px;
@@ -109,13 +174,21 @@
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-regular);
     line-height: var(--primary-line-height);
+=======
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 100px;
+>>>>>>> feature/html-css-practice
   }
 
   .service-content {
     gap: 45px 116px;
   }
+<<<<<<< HEAD
 
   .service-topic {
     width: 270px;
   }
+=======
+>>>>>>> feature/html-css-practice
 }
