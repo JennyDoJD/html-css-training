@@ -1,9 +1,9 @@
 .wrapper-place {
-  background: url(../../assets/images/banner.webp) no-repeat center;
-  background-size: contain;
+  background: url(../../assets/images/banner.webp) center / 100% no-repeat;
   border-radius: 24px;
   height: 380px;
-  display: flex;
+  border: 1px solid var(--secondary-border-color);
+  position: relative;
 }
 
 .place-introduction {
@@ -20,8 +20,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 10px 10px 15px;
+  padding: 20px 15px 10px 15px;
   gap: 10px;
+  width: auto;
 }
 
 .tab-item {
@@ -44,7 +45,9 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  width: -webkit-fill-available;
+  width: 100%;
+  position: absolute;
+  top: 85%;
 }
 
 .pane-item {
@@ -110,16 +113,18 @@
   color: var(--brown-text-color);
   line-height: 18px;
   border: none;
+  width: 123px;
 }
 
 /* Tablet */
 @media (min-width: 768px) {
   .wrapper-place {
-    background: var(--secondary-background-color) url(../../assets/images/banner-desktop.webp) no-repeat top right;
-    background-size: 50%;
+    background: var(--secondary-background-color) url(../../assets/images/banner-desktop.webp) no-repeat top right / contain;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 350px;
+    border: none;
   }
 
   .place-title {
@@ -149,7 +154,6 @@
 
   .pane-item {
     display: flex;
-    gap: 15px;
 
     &:first-child {
       padding-right: 20px;
@@ -158,6 +162,7 @@
   
   .tab-description {
     font-size: var(--font-size-xsmall);
+    width: 165px;
   }
 
   .pane-content {
@@ -172,13 +177,17 @@
     padding: 12px 22px;
     font-size: var(--font-size-small);
   }
+
+  .tab-nav {
+    top: 68%;
+  }
 }
 
 /* Desktop */
 @media (min-width: 1440px) {
   .wrapper-place {
     height: 600px;
-    justify-content: space-around;
+    display: block;
   }
 
   .place-title {
@@ -196,6 +205,7 @@
   .place-introduction {
     width: 515px;
     padding-left: 60px;
+    padding-top: 67px;
   } 
 
   .tab-link {
@@ -221,20 +231,27 @@
   .pane-type-trip {
     display: flex;
     border-right: none;
+    padding-left: 30px;
   }
 
   .pane-date {
     border-right: 1px solid #eeeeee;
     padding-right: 20px;
+    padding-left: 30px;
   }
 
   .tab-pane-list {
     justify-content: space-around;
     padding: 30px;
+    box-shadow: 0 25px 54px 0 #efefef;
   }
 
   .tab-nav {
     padding-left: 40px;
     padding-right: 40px;
+  }
+
+  .pane-item:last-child {
+    padding-left: 97px;
   }
 }
