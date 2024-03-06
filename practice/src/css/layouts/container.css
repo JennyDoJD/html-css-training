@@ -16,5 +16,7 @@
   .container {
     margin: 0 auto;
     max-width: 1240px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }

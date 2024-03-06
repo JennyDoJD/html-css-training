@@ -6,7 +6,6 @@
 }
 
 .discount-section {
-  padding-top: 40px;
   padding-bottom: 50px;
 }
 
@@ -32,6 +31,8 @@
   top: 0;
   right: 0;
   transform: translateY(-50%);
+  width: 72px;
+  height: 72px;
 }
 
 .discount-comment {
@@ -91,7 +92,8 @@
     background-color: var(--primary-background-color);
     border-radius: 24px;
     width: 194px;
-    bottom: 2px;
+    bottom: 0px;
+    left: 19px;
   }
 
   .avatar-customer {
@@ -106,11 +108,25 @@
     align-items: center;
     padding-top: 20px;
   }
+
+  .icon-heart {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 @media (min-width: 1440px) {
   .discount-main {
     padding-top: 25px;
     padding-bottom: 75px;
+  }
+
+  .discount-comment {
+    left: 140px;
+    bottom: 2px;
+  }
+
+  .icon-heart {
+    right: 49px;
   }
 }
