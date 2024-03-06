@@ -34,7 +34,7 @@
   padding-top: 12px;
 }
 
-.footer-col {
+.footer-column {
   text-align: center;
 
   &:first-child {
@@ -42,7 +42,7 @@
   }
 }
 
-.footer-col-name {
+.footer-column-name {
   font-weight: var(--font-weight-medium);
   font-size: var(--font-size-small);
   line-height: var(--tertiary-line-height);
