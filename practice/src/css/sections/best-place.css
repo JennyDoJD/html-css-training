@@ -2,7 +2,6 @@
   background: url(../../assets/images/banner.webp) center / contain no-repeat;
   border-radius: 24px;
   height: 380px;
-  border: 1px solid var(--secondary-border-color);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -245,6 +244,6 @@
   }
 
   .pane-item:last-child {
-    padding-left: 97px;
+    padding-left: 79px;
   }
 }
