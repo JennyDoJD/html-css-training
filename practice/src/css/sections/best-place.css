@@ -236,6 +236,7 @@
     padding: 30px;
     box-shadow: 0 25px 54px 0 #efefef;
     width: 1092px;
+    border-radius: 0px 24px 24px;
   }
 
   .tab-nav {
