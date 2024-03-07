@@ -137,4 +137,9 @@
   .destination-card {
     grid-template-columns: repeat(4, 1fr);
   }
+
+  .wrapper-destination {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
