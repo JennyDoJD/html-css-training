@@ -94,7 +94,7 @@
     border-radius: 24px;
     width: 194px;
     bottom: 2px;
-    left: 140px;
+    left: 24px;
   }
 
   .avatar-customer {
@@ -129,5 +129,9 @@
 
   .icon-heart {
     right: 49px;
+  }
+
+  .discount-comment {
+    left: 140px;
   }
 }
