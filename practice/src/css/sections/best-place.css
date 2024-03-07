@@ -106,7 +106,7 @@
   color: var(--dark-text-color);
 }
 
-.tab-description {
+.tab-select {
   font-size: var(--font-size-xxsmall);
   font-weight: var(--font-weight-regular);
   color: var(--brown-text-color);
@@ -164,7 +164,7 @@
     }
   }
   
-  .tab-description {
+  .tab-select {
     font-size: var(--font-size-xsmall);
     width: 165px;
   }
@@ -229,7 +229,7 @@
     line-height: var(--secondary-line-height);
   }
   
-  .tab-description {
+  .tab-select {
     font-size: var(--font-size-small);
   }
   
@@ -255,6 +255,7 @@
     justify-content: space-around;
     padding: 30px;
     box-shadow: 0 25px 54px 0 #efefef;
+    width: 1092px;
   }
 
   .tab-nav {
