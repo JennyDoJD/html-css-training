@@ -37,6 +37,8 @@
   .wrapper-service {
     background-color: var(--primary-background-color);
     border-radius: 0;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .service-heading {
