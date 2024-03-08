@@ -184,7 +184,6 @@
   .place-title {
     font-size: var(--font-size-bg);
     line-height: 78px;
-    width: 550px;
   }
 
   .place-description {
