@@ -37,8 +37,8 @@
   .wrapper-service {
     background-color: var(--primary-background-color);
     border-radius: 0;
-    padding-left: 22px;
-    padding-right: 22px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .service-heading {
@@ -62,7 +62,7 @@
   }
 
   .service-topic-desc {
-    width: 212px;
+    width: 259px;
   }
 }
 
@@ -75,7 +75,7 @@
 
   .service-heading {
     text-align: left;
-    padding-left: 30px;
+    padding-left: 60px;
     width: 244px;
   }
 
@@ -83,6 +83,8 @@
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .service-content {

@@ -92,4 +92,9 @@
   .logo-name {
     font-size: var(--font-size-xl);
   }
+
+  .header-section {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
