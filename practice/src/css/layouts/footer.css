@@ -22,6 +22,12 @@
   line-height: var(--primary-line-height);
 }
 
+.footer-text {
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-small);
+  line-height: var(--tertiary-line-height);
+}
+
 .footer-logo {
   align-items: center;
   display: flex;
@@ -38,7 +44,7 @@
   text-align: center;
 
   &:first-child {
-    text-align: start;
+    text-align: left;
   }
 }
 
@@ -56,12 +62,10 @@
 
 .footer-link {
   color: var(--light-gray-text-color);
-}
 
-.footer-text {
-  font-weight: var(--font-weight-regular);
-  font-size: var(--font-size-small);
-  line-height: var(--tertiary-line-height);
+  &:hover {
+    color: var(--primary-text-color);
+  }
 }
 
 /* Tablet */
@@ -72,6 +76,10 @@
     padding-bottom: 30px;
     align-items: normal;
     justify-content: center;
+  }
+
+  .footer-column:nth-child(n+2) {
+    text-align: left;
   }
 }
 
