@@ -1,5 +1,5 @@
 .wrapper-package {
-  padding-bottom: 50px;
+  padding-bottom: 65px;
 }
   
 .package-card-item {
@@ -105,5 +105,11 @@
     grid-template-columns: repeat(auto-fit, minmax(500px, auto));
     gap: 60px;
     align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .package-card {
+    padding-left: 78px;
   }
 }
