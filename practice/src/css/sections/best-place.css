@@ -1,11 +1,11 @@
-.wrapper-place {
-  background: url(../../assets/images/banner.webp) center / contain no-repeat;
-  border-radius: 24px;
+.place-main {
+  background: url(../../assets/images/banner.webp) center / cover no-repeat;
   height: 380px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
   border-radius: 24px;
+}
+
+.tab-nav {
+  padding-top: 330px;
 }
 
 .place-introduction {
@@ -113,13 +113,17 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+
+  .place-main {
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
   
   .wrapper-place {
     background: var(--secondary-background-color) url(../../assets/images/banner-desktop.webp) no-repeat top right / contain;
-    justify-content: space-between;
-    height: 350px;
-    border: none;
-    padding: 0;
+    border-radius: 12px;
   }
 
   .place-title {
@@ -138,9 +142,11 @@
   .place-introduction {
     display: block;
     width: 328px;
-    padding-left: 20px;
-    padding-top: 30px;
-  } 
+  }
+  
+  .tab-nav {
+    padding: 0;
+  }
 
   .tab-link {
     font-size: var(--font-size-small);
@@ -172,13 +178,24 @@
     padding: 12px 22px;
     font-size: var(--font-size-small);
   }
+
+  .tab-pane-list {
+    padding: 18px;
+    border-radius: 0px 20px 20px;
+    box-shadow: 0 25px 54px 0 #efefef;
+  }
 }
 
 /* Desktop */
 @media (min-width: 1440px) {
+  .place-main {
+    height: 580px;
+  }
+
   .wrapper-place {
-    height: 600px;
-    display: block;
+    height: 580px;
+    padding: 0;
+    border-radius: 24px;
   }
 
   .place-title {
@@ -233,15 +250,15 @@
   .tab-pane-list {
     justify-content: space-around;
     padding: 30px;
-    box-shadow: 0 25px 54px 0 #efefef;
     width: 1092px;
-    border-radius: 0px 24px 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
   }
 
   .tab-nav {
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 115px;
   }
 
   .pane-item:last-child {
