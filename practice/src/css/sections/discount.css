@@ -44,7 +44,6 @@
 @media (min-width: 768px) {
   .wrapper-discount {
     background-image: url(../../assets/images/discount/map-desktop.png);
-    position: relative;
   }
 
   .discount-section {
