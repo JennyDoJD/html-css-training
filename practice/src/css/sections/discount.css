@@ -16,8 +16,8 @@
 }
 
 .btn-claim {
+  display: inline-block;
   font-size: var(--font-size-xsmall);
-  background-color: var(--tertiary-background-color);
 }
 
 .discount-body {
@@ -42,29 +42,20 @@
 
 /* Tablet */
 @media (min-width: 768px) {
+  .wrapper-discount {
+    background-image: url(../../assets/images/discount/map-desktop.png);
+    position: relative;
+  }
+
+  .discount-section {
+    padding-bottom: 80px;
+  }
+
   .introduction-customer {
     font-size: var(--font-size-xsmall);
     line-height: 21px;
     font-weight: var(--font-weight-regular);
     color: var(--dark-text-color);
-  }
-
-  .discount-comment-text {
-    font-size: var(--font-size-small);
-    font-weight: var(--font-weight-medium);
-    line-height: 23px;
-    color: var(--dark-text-color);
-  }
-
-  .wrapper-discount {
-    background-image: none;
-    background-color: var(--primary-background-color);
-  }
-
-  .discount-main {
-    background: var(--dark-blue-background-color) url(../../assets/images/discount/map-desktop.png) no-repeat;
-    border-radius: 70px 20px 20px 20px;
-    padding-bottom: 50px;
   }
 
   .discount-title {
@@ -84,17 +75,32 @@
     flex-direction: column;
     gap: 12px;
     align-items: center;
-  }
+  } 
 
+  .icon-heart {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (min-width: 1440px) {
   .discount-comment {
     display: block;
+    left: 140px;
     position: absolute;
     padding: 20px;
     background-color: var(--primary-background-color);
     border-radius: 24px;
     width: 194px;
-    bottom: 2px;
-    left: 24px;
+    left: 44px;
+    transform: translateY(-50%);
+  }
+
+  .discount-comment-text {
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-medium);
+    line-height: 23px;
+    color: var(--dark-text-color);
   }
 
   .avatar-customer {
@@ -111,27 +117,6 @@
   }
 
   .icon-heart {
-    width: 100px;
-    height: 100px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .wrapper-discount {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-  
-  .discount-main {
-    padding-top: 25px;
-    padding-bottom: 75px;
-  }
-
-  .icon-heart {
-    right: 49px;
-  }
-
-  .discount-comment {
-    left: 140px;
+    transform: translate(43%, -50%);
   }
 }
