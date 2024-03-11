@@ -15,7 +15,7 @@
 .destination-type-trip {
   font-weight: var(--font-weight-light);
   font-size: var(--font-size-xxsmall);
-  line-height: var(--small-line-height);
+  line-height: var(--xxsmall-line-height);
   font-style: italic;
   color: var(--dark-text-color);
 }
@@ -34,9 +34,13 @@
 
 .btn-destination {
   font-size: var(--font-size-small);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--tertiary-line-height);
   padding: 8px 24px;
-  border-radius: 12px;
-  background-color: var(--tertiary-background-color);
+
+  &:hover {
+    background-color: var(--depth-blue-background-color);
+  }
 }
 
 .booking-info {
@@ -136,10 +140,5 @@
 @media (min-width: 1440px) {
   .destination-card {
     grid-template-columns: repeat(4, 1fr);
-  }
-
-  .wrapper-destination {
-    padding-left: 0px;
-    padding-right: 0px;
   }
 }
