@@ -92,6 +92,7 @@
     width: 194px;
     left: 44px;
     transform: translateY(-50%);
+    box-shadow: 0 14px 25px 0 rgba(242, 242, 242, 1);
   }
 
   .discount-comment-text {
