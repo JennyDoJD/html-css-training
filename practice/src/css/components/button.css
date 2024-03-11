@@ -25,6 +25,6 @@
   &:hover {
     color: var(--primary-text-color);
     background-color: var(--tertiary-background-color);
-    border: none;
+    border: 1px solid var(--primary-border-radius-color);
   }
 }
