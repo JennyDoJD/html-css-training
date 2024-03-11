@@ -17,7 +17,12 @@
 
 .btn-claim {
   display: inline-block;
-  font-size: var(--font-size-xsmall);
+  line-height: 18px;
+  font-size: var(--font-size-xxsmall);
+
+  &:hover {
+    background-color: var(--depth-blue-background-color);
+  }
 }
 
 .discount-body {
@@ -40,6 +45,10 @@
   display: none;
 }
 
+.discount-description {
+  color: var(--dark-text-color);
+}
+
 /* Tablet */
 @media (min-width: 768px) {
   .wrapper-discount {
@@ -50,21 +59,8 @@
     padding-bottom: 80px;
   }
 
-  .introduction-customer {
-    font-size: var(--font-size-xsmall);
-    line-height: 21px;
-    font-weight: var(--font-weight-regular);
-    color: var(--dark-text-color);
-  }
-
-  .discount-title {
-    width: 500px;
-    padding: 0;
-  }
-
   .discount-description {
     width: 341px;
-    color: var(--dark-text-color);
   }
 
   .discount-heading {
@@ -79,6 +75,11 @@
   .icon-heart {
     width: 100px;
     height: 100px;
+  }
+
+  .btn-claim {
+    font-size: var(--font-size-medium);
+    line-height: var(--secondary-line-height);
   }
 }
 
@@ -113,6 +114,22 @@
     gap: 5px;
     align-items: center;
     padding-top: 20px;
+  }
+
+  .introduction-customer {
+    color: var(--black-text-color);
+  }
+
+  .customer-name {
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--tertiary-line-height);
+  }
+
+  .customer-type {
+    font-size: var(--font-size-xsmall);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--small-line-height);
   }
 
   .icon-heart {
