@@ -16,8 +16,13 @@
 }
 
 .btn-claim {
-  font-size: var(--font-size-xsmall);
-  background-color: var(--tertiary-background-color);
+  display: inline-block;
+  line-height: 18px;
+  font-size: var(--font-size-xxsmall);
+
+  &:hover {
+    background-color: var(--depth-blue-background-color);
+  }
 }
 
 .discount-body {
@@ -40,41 +45,22 @@
   display: none;
 }
 
+.discount-description {
+  color: var(--dark-text-color);
+}
+
 /* Tablet */
 @media (min-width: 768px) {
-  .introduction-customer {
-    font-size: var(--font-size-xsmall);
-    line-height: 21px;
-    font-weight: var(--font-weight-regular);
-    color: var(--dark-text-color);
-  }
-
-  .discount-comment-text {
-    font-size: var(--font-size-small);
-    font-weight: var(--font-weight-medium);
-    line-height: 23px;
-    color: var(--dark-text-color);
-  }
-
   .wrapper-discount {
-    background-image: none;
-    background-color: var(--primary-background-color);
+    background-image: url(../../assets/images/discount/map-desktop.png);
   }
 
-  .discount-main {
-    background: var(--dark-blue-background-color) url(../../assets/images/discount/map-desktop.png) no-repeat;
-    border-radius: 70px 20px 20px 20px;
-    padding-bottom: 50px;
-  }
-
-  .discount-title {
-    width: 500px;
-    padding: 0;
+  .discount-section {
+    padding-bottom: 80px;
   }
 
   .discount-description {
     width: 341px;
-    color: var(--dark-text-color);
   }
 
   .discount-heading {
@@ -84,8 +70,20 @@
     flex-direction: column;
     gap: 12px;
     align-items: center;
+  } 
+
+  .icon-heart {
+    width: 100px;
+    height: 100px;
   }
 
+  .btn-claim {
+    font-size: var(--font-size-medium);
+    line-height: var(--secondary-line-height);
+  }
+}
+
+@media (min-width: 1440px) {
   .discount-comment {
     display: block;
     position: absolute;
@@ -93,8 +91,16 @@
     background-color: var(--primary-background-color);
     border-radius: 24px;
     width: 194px;
-    bottom: 2px;
-    left: 24px;
+    left: 44px;
+    transform: translateY(-50%);
+    box-shadow: 0 14px 25px 0 rgba(242, 242, 242, 1);
+  }
+
+  .discount-comment-text {
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--medium-line-height);
+    color: var(--dark-text-color);
   }
 
   .avatar-customer {
@@ -110,28 +116,23 @@
     padding-top: 20px;
   }
 
+  .introduction-customer {
+    color: var(--black-text-color);
+  }
+
+  .customer-name {
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--tertiary-line-height);
+  }
+
+  .customer-type {
+    font-size: var(--font-size-xsmall);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--small-line-height);
+  }
+
   .icon-heart {
-    width: 100px;
-    height: 100px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .wrapper-discount {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-  
-  .discount-main {
-    padding-top: 25px;
-    padding-bottom: 75px;
-  }
-
-  .icon-heart {
-    right: 49px;
-  }
-
-  .discount-comment {
-    left: 140px;
+    transform: translate(43%, -50%);
   }
 }
