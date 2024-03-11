@@ -86,7 +86,6 @@
 @media (min-width: 1440px) {
   .discount-comment {
     display: block;
-    left: 140px;
     position: absolute;
     padding: 20px;
     background-color: var(--primary-background-color);
