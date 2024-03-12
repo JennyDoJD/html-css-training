@@ -153,6 +153,7 @@
     flex-direction: column;
     justify-content: space-around;
     border: none;
+    height: 340px;
   }
   
   .wrapper-place {
