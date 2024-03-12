@@ -13,7 +13,7 @@
   color: var(--secondary-text-color);
   font-weight: var(--font-weight-semibold);
   font-size: var(--font-size-small);
-  line-height: 23px;
+  line-height: var(--medium-line-height);
 }
 
 .secondary-title {
