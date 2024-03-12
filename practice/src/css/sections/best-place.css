@@ -1,7 +1,12 @@
+.place-section {
+  padding-bottom: 50px;
+}
+
 .place-main {
   background: url(../../assets/images/banner.webp) center / cover no-repeat;
   height: 380px;
-  border-radius: 24px;
+  border-radius: var(--primary-border-radius);
+  border: 1px solid var(--secondary-border-color);
 }
 
 .tab-nav {
@@ -28,17 +33,23 @@
 
 .tab-item {
   padding: 8px 20px;
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
 
   &:first-child {
     border-top-left-radius: 12px;
     background-color: var(--tertiary-background-color);
+
+    &:hover {
+      background-color: var(--primary-background-color);
+    }
   }
 
   &:last-child {
     border-top-right-radius: 12px;
     background-color: var(--primary-background-color);
+
+    &:hover {
+      background-color: var(--tertiary-background-color);
+    }
   }
 }
 
@@ -65,7 +76,11 @@
   padding: 10px 12px;
   color: var(--primary-text-color);
   border: none;
-  gap: 5px;
+  gap: 2px;
+
+  &:hover {
+    background-color: var(--depth-blue-background-color);
+  }
 }
 
 .pane-content {
@@ -77,6 +92,7 @@
 .tab-introduction {
   display: flex;
   flex-direction: column;
+  width: 126px;
 }
 
 .tab-link {
@@ -85,16 +101,24 @@
   line-height: 18px;
   font-family: var(--primary-font);
   color: var(--secondary-text-color);
+
+  &:hover {
+    color: var(--primary-text-color);
+  }
 }
 
 .active {
   color: var(--primary-text-color);
+
+  &:hover {
+    color: var(--secondary-text-color);
+  }
 }
 
 .tab-title {
   font-size: var(--font-size-xsmall);
   font-weight: var(--font-weight-medium);
-  line-height: 21px;
+  line-height: var(--small-line-height);
   color: var(--dark-text-color);
 }
 
@@ -102,9 +126,18 @@
   font-size: var(--font-size-xxsmall);
   font-weight: var(--font-weight-regular);
   color: var(--brown-text-color);
-  line-height: 18px;
+  line-height: var(--xxsmall-line-height);
   border: none;
   width: 123px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.icon-search {
+  width: 14px;
+  height: 14px;
 }
 
 /* Tablet */
@@ -119,10 +152,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    border: none;
   }
   
   .wrapper-place {
-    background: var(--secondary-background-color) url(../../assets/images/banner-desktop.webp) no-repeat top right / contain;
+    background: var(--secondary-background-color) url(../../assets/images/banner.webp) no-repeat right center / 50%;
     border-radius: 12px;
   }
 
@@ -150,7 +184,7 @@
 
   .tab-link {
     font-size: var(--font-size-small);
-    line-height: 24px;
+    line-height: var(--tertiary-line-height);
   }
 
   .pane-item {
@@ -175,7 +209,6 @@
   }
 
   .btn-search-banner {
-    padding: 12px 22px;
     font-size: var(--font-size-small);
   }
 
@@ -183,6 +216,15 @@
     padding: 18px;
     border-radius: 0px 20px 20px;
     box-shadow: 0 25px 54px 0 #efefef;
+  }
+
+  .tab-introduction {
+    width: 144px;
+  }
+
+  .icon-search {
+    width: 24px;
+    height: 24px;
   }
 }
 
@@ -195,7 +237,7 @@
   .wrapper-place {
     height: 580px;
     padding: 0;
-    border-radius: 24px;
+    border-radius: var(--primary-border-radius);
   }
 
   .place-title {
@@ -248,12 +290,10 @@
   }
 
   .tab-pane-list {
-    justify-content: space-around;
     padding: 30px;
-    width: 1092px;
-    border-top-right-radius: 24px;
-    border-bottom-right-radius: 24px;
-    border-bottom-left-radius: 24px;
+    border-top-right-radius: var(--primary-border-radius);
+    border-bottom-right-radius: var(--primary-border-radius);
+    border-bottom-left-radius: var(--primary-border-radius);
   }
 
   .tab-nav {
@@ -263,5 +303,9 @@
 
   .pane-item:last-child {
     padding-left: 79px;
+  }
+
+  .tab-introduction {
+    width: 170px;
   }
 }
