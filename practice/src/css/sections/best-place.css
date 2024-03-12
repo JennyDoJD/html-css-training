@@ -156,7 +156,7 @@
   }
   
   .wrapper-place {
-    background: var(--secondary-background-color) url(../../assets/images/banner.webp) no-repeat right center / 50%;
+    background: var(--secondary-background-color) url(../../assets/images/banner-desktop.png) no-repeat right center / contain;
     border-radius: 12px;
   }
 
@@ -236,7 +236,6 @@
 
   .wrapper-place {
     height: 580px;
-    padding: 0;
     border-radius: var(--primary-border-radius);
   }
 
