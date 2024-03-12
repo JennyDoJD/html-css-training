@@ -1,7 +1,7 @@
 .wrapper-package {
   padding-bottom: 65px;
 }
-  
+
 .package-card-item {
   position: relative;
 
@@ -77,9 +77,14 @@
   line-height: var(--primary-line-height);
 }
 
-.btn-package:hover {
-  color: var(--tertiary-text-color);
-  background-color: var(--primary-background-color);
+.btn-package {
+  display: inline-block;
+  padding: 12px;
+
+  &:hover {
+    color: var(--tertiary-text-color);
+    background-color: var(--primary-background-color);
+  }
 }
 
 .package-card {
@@ -105,11 +110,13 @@
     grid-template-columns: repeat(auto-fit, minmax(500px, auto));
     gap: 60px;
     align-items: center;
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
   .package-card {
     padding-left: 78px;
+  }
+
+  .btn-package {
+    padding: 14px 24px;
   }
 }
