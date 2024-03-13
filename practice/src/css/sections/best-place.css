@@ -7,10 +7,12 @@
   height: 380px;
   border-radius: var(--primary-border-radius);
   border: 1px solid var(--secondary-border-color);
+  transform: scaleX(-1);
 }
 
 .tab-nav {
   padding-top: 330px;
+  transform: scaleX(-1);
 }
 
 .place-introduction {
@@ -154,6 +156,7 @@
     flex-direction: column;
     justify-content: space-around;
     border: none;
+    height: 340px;
   }
   
   .wrapper-place {
@@ -177,6 +180,8 @@
   .place-introduction {
     display: block;
     width: 328px;
+    transform: scaleX(-1);
+    margin-left: auto;
   }
   
   .tab-nav {
