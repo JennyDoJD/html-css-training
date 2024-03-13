@@ -42,7 +42,7 @@
     background-color: var(--tertiary-background-color);
 
     &:hover {
-      background-color: var(--primary-background-color);
+      background-color: var(--depth-blue-background-color);
     }
   }
 
@@ -51,7 +51,7 @@
     background-color: var(--primary-background-color);
 
     &:hover {
-      background-color: var(--tertiary-background-color);
+      background-color: var(--secondary-background-color);
     }
   }
 }
@@ -104,18 +104,10 @@
   line-height: 18px;
   font-family: var(--primary-font);
   color: var(--secondary-text-color);
-
-  &:hover {
-    color: var(--primary-text-color);
-  }
 }
 
 .active {
   color: var(--primary-text-color);
-
-  &:hover {
-    color: var(--secondary-text-color);
-  }
 }
 
 .tab-title {
