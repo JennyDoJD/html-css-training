@@ -58,6 +58,7 @@
 
 .pane-item {
   display: none;
+  align-items: center;
 
   &:first-child {
     padding-right: 15px;
