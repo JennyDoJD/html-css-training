@@ -3,7 +3,7 @@
 }
 
 .place-main {
-  background: url(../../assets/images/banner.webp) center / cover no-repeat;
+  background: url(../../assets/images/best-place/banner-mobile.webp) center / cover no-repeat;
   height: 380px;
   border-radius: var(--primary-border-radius);
   border: 1px solid var(--secondary-border-color);
@@ -153,7 +153,7 @@
   }
   
   .wrapper-place {
-    background: var(--secondary-background-color) url(../../assets/images/banner-desktop.png) no-repeat right center / contain;
+    background: var(--secondary-background-color) url(../../assets/images/best-place/banner-desktop.webp) no-repeat right center / contain;
     border-radius: 12px;
   }
 

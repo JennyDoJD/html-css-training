@@ -1,7 +1,7 @@
 .wrapper-discount {
   padding-bottom: 50px;
   border-radius: 70px 20px 20px 20px;
-  background: var(--dark-blue-background-color) url(../../assets/images/discount/map-mobile.png) no-repeat center / contain;
+  background: var(--dark-blue-background-color) url(../../assets/images/discount/map-mobile.webp) no-repeat center / contain;
   position: relative;
 }
 
@@ -50,7 +50,7 @@
 /* Tablet */
 @media (min-width: 768px) {
   .wrapper-discount {
-    background-image: url(../../assets/images/discount/map-desktop.png);
+    background-image: url(../../assets/images/discount/map-desktop.webp);
     background-size: cover;
   }
 
