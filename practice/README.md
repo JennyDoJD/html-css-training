@@ -5,17 +5,15 @@
 
 ## Timeline:
 
-- 2024/02/16 - 2024/03/01
+- 2024/02/16 - 2024/03/13
 
 ## Team size:
 
 - 1 developer
 
-## Technical:
+## Technical stack:
 
 - HTML5/CSS3
-- Vercel
-- Parcel
 
 ## Task Management:
 
@@ -23,9 +21,11 @@
 
 ## Requirements:
 
+- Build a site that will be applied all HTML5/CSS3 knowledge
+- Slice from Figma to HTML/CSS
 - Apply mobile first for practice
 - Apply CSS guideline
-- Apply Flexbox and Grid
+- Apply Flexbox and Grid in CSS
 - Responsive (Mobile, Tablet, Desktop)
 - Cross-browser testing (MS Edge, Chrome, Firefox latest version)
   - MS Edge: 44.17763.1.0
