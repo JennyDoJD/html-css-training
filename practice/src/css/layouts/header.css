@@ -51,6 +51,10 @@
     }
   }
 
+  li:first-child > .nav-link {
+    color: var(--secondary-text-color);
+  }
+
   .btn-login {
     display: inline-block;
     color: var(--secondary-text-color);
