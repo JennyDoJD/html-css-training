@@ -29,10 +29,6 @@
   display: none;
 }
 
-.header-btn {
-  display: none;
-}
-
 /* Tablet */
 @media (min-width: 768px) {
   .header-section {
@@ -51,29 +47,12 @@
     }
   }
 
-  .btn-login {
-    display: inline-block;
-    color: var(--secondary-text-color);
-    font-size: var(--font-size-small);
-    background-color: var(--light-background-color);
-    padding: 12px 24px;
-    border-radius: 12px;
-
-    &:hover {
-      background-color: var(--primary-background-color);
-    }
-  }
-
   .header-logo {
     gap: 5px;
   }
 
   .dropdown-content {
     display: none;
-  }
-
-  .header-btn {
-    display: flex;
   }
 
   .nav-list {
