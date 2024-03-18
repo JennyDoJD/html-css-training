@@ -15,16 +15,6 @@
   padding-bottom: 99px;
 }
 
-.btn-claim {
-  display: inline-block;
-  line-height: 18px;
-  font-size: var(--font-size-xxsmall);
-
-  &:hover {
-    background-color: var(--depth-blue-background-color);
-  }
-}
-
 .discount-body {
   display: flex;
   flex-direction: column;
@@ -74,11 +64,6 @@
   .icon-heart {
     width: 100px;
     height: 100px;
-  }
-
-  .btn-claim {
-    font-size: var(--font-size-medium);
-    line-height: var(--secondary-line-height);
   }
 }
 
