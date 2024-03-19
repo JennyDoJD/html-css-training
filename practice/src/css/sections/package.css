@@ -87,16 +87,6 @@
   line-height: var(--primary-line-height);
 }
 
-.btn-package {
-  display: inline-block;
-  padding: 12px;
-
-  &:hover {
-    color: var(--tertiary-text-color);
-    background-color: var(--primary-background-color);
-  }
-}
-
 .package-card {
   display: grid;
   gap: 20px;
@@ -124,9 +114,5 @@
 
   .package-card {
     padding-left: 78px;
-  }
-
-  .btn-package {
-    padding: 14px 24px;
   }
 }
