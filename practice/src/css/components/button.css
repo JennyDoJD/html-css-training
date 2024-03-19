@@ -33,16 +33,7 @@
   font-weight: var(--font-weight-medium);
 }
 
-.btn-package-choose {
-  display: inline-block;
-  border-radius: var(--secondary-border-radius);
-  padding: 14px 24px;
-  font-size: var(--font-size-medium);
-  line-height: var(--secondary-line-height);
-  font-weight: var(--font-weight-medium);
-}
-
-.btn-package-viewmore {
+.btn-package {
   display: inline-block;
   border-radius: var(--secondary-border-radius);
   padding: 14px 24px;
@@ -81,8 +72,8 @@
 @media (min-width: 768px) {
   .btn-login {
     display: inline-block;
-    border-radius: var(--secondary-border-radius);
     padding: 12px 24px;
+    border-radius: var(--secondary-border-radius);
     background-color: var(--light-background-color);
     color: var(--secondary-text-color);
     font-size: var(--font-size-small);
