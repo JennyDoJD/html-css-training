@@ -63,6 +63,12 @@
   font-weight: var(--font-weight-regular);
 }
 
+.btn-wrapper-destination {
+  display: grid;
+  place-items: center;
+  padding-top: 50px;
+}
+
 .btn-destination-viewmore {
   border: 1.5px solid var(--primary-border-color);
   border-radius: 100px;
