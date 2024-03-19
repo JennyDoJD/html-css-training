@@ -34,17 +34,6 @@
   gap: 4px;
 }
 
-.btn-destination {
-  font-size: var(--font-size-small);
-  font-weight: var(--font-weight-regular);
-  line-height: var(--tertiary-line-height);
-  padding: 8px 24px;
-
-  &:hover {
-    background-color: var(--depth-blue-background-color);
-  }
-}
-
 .booking-info {
   display: flex;
   gap: 2px;
@@ -110,7 +99,7 @@
   }
 }
 
-.destination-button {
+.destination-content {
   display: grid;
   place-items: center;
   padding-top: 50px;
