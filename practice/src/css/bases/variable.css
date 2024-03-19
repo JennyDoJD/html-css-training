@@ -17,7 +17,7 @@
   --pale-gray-text-color: #e0e7fa;
   --light-gray-text-color: #a1a1a3;
   --dark-grey-text-color: #ededed;
-  --black-text-color: #000000;
+  --black-text-color: #000;
 
   --font-size-xxsmall: 12px;
   --font-size-xsmall: 14px;
@@ -29,7 +29,7 @@
   --font-size-3xl: 36px;
   --font-size-bg: 52px;
 
-  --primary-background-color: #ffffff;
+  --primary-background-color: #fff;
   --secondary-background-color: #fafafa;
   --tertiary-background-color: #00afd5;
   --dark-background-color: #292c39;
@@ -39,7 +39,7 @@
   --depth-blue-background-color: #208ba3;
   
   --primary-border-color: #7b7b7b;
-  --secondary-border-color: #000000;
+  --secondary-border-color: #000;
 
   --primary-line-height: 30px;
   --secondary-line-height: 27px;
