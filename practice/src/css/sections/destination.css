@@ -99,12 +99,6 @@
   }
 }
 
-.destination-button {
-  display: grid;
-  place-items: center;
-  padding-top: 50px;
-}
-
 /* Tablet */
 @media (min-width: 768px) {
   .destination-card {
