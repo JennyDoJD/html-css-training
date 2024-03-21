@@ -1,7 +1,3 @@
-.text {
-  font-family: var(--primary-font);
-}
-
 .main-heading {
   color: var(--secondary-text-color);
   font-weight: var(--font-weight-regular);

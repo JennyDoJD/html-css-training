@@ -119,4 +119,9 @@
   .icon-heart {
     transform: translate(43%, -50%);
   }
+
+  .customer-image {
+    width: 54px;
+    height: 54px;
+  }
 }
