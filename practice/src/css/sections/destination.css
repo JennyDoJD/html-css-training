@@ -105,6 +105,10 @@
   padding-top: 50px;
 }
 
+.destination-image {
+  height: 280px;
+}
+
 /* Tablet */
 @media (min-width: 768px) {
   .destination-card {
