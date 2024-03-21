@@ -25,10 +25,7 @@
   line-height: var(--small-line-height);
 }
 
-.nav-list {
-  display: none;
-}
-
+.nav-list,
 .account {
   display: none;
 }
