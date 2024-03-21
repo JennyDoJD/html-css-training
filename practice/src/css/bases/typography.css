@@ -1,35 +1,42 @@
 @font-face {
   font-family: "Poppins";
   src: url('../../assets/fonts/Poppins-Bold.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Poppins";
   src: url('../../assets/fonts/Poppins-SemiBold.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Poppins";
   src: url('../../assets/fonts/Poppins-Medium.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Poppins";
   src: url('../../assets/fonts/Poppins-Regular.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Poppins";
   src: url('../../assets/fonts/Poppins-Light.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Poppins";
   src: url('../../assets/fonts/Poppins-LightItalic.woff') format('woff');
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Lobster";
   src: url('../../assets/fonts/Lobster-Regular.woff') format('woff');
+  font-display: swap;
 }
